@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    align-items: right;
+    justify-content: center;
+    background: black;
+    top: 0;left: 0;right: 0;
+  
+} 
+
+header .logo span{
+    color: royalblue;
+}
+header nav a{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 30px;
+}
+
+ nav a:hover{
+    background: royalblue;
+}
+
+.home h3{
+    font-size: 2rem;
+    color: #fff;
+    }
+    .home h1{
+        font-size: 2.5rem;
+        color: #fff;
+    }
+    .home h1 span{
+        color: royalblue;
+    }
+    .home p{
+        font-size: 1rem;
+        color: #fff;
+        padding: 10px;
+        animation-delay: 0.5s;
+    }
+    .btn{
+        padding: .5rem 2rem;
+        background: royalblue;
+        cursor: pointer;
+        color: #fff;
+        margin-top: 1rem;
+        font-size: 1rem;
+        border-radius: 5rem;
+        animation-delay: 1s;
+    }
+    .btn:hover{
+        background: black;
+    }
+
+.home{
+        display: flex;
+        padding: 50px;
+        margin: 0px;
+        background: black;
+    }
+.home img{
+    width: 400px;
+    height: 500px;
+    animation-delay: 1s;
+}
+.content{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.icons img{
+    height: 35px;
+    width: 35px;
+    background: rebeccapurple;
+    padding: 7px;
+    border-radius: 20px;
+    animation-delay: 0.5s;
+    cursor: pointer;
+    transition: 0.5;
+}
+.icons img:hover{
+    background: royalblue;
+    transition: 0.5;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.feature anim{
+    animation-delay: 1.5s;
+}
+.pic anim{
+    animation-delay: 0.3s;
+}
+
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    background: black;
+}
+.heading{
+text-align: center;
+
+}
+.heading span{
+    color:royalblue;
+    font-size: 35px;
+}
+.about .heading h1{
+    color: #fff;
+}
+
+
+.about .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+.about .row .info h3{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.about .row .info h3 span{
+    color: rebeccapurple;
+    padding: 0 .5rem;
+}
+.about .row .counter{
+    flex: 2 2 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about .row .counter .box{
+    width: 17rem;
+    background: royalblue;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+.about .row .counter .box h3{
+    font-size: 2.5rem;
+}
+.about .row .counter .box span{
+    font-size: 2.5rem;
+    color: white;
+}
+.services{
+
+    background: black;
+    align-items: center;
+    text-align: center;
+}
+.services h1{
+    margin-top: 5%;
+    font-size: 40px;
+    color: rebeccapurple;
+    text-align: center;
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1 1 25rem;
+}
+.box h3{
+    color: #fff;
+    font-size: 30px;
+}
+.box p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.container .box{
+    padding: 20px;
+   box-sizing: border-box;
+  align-items: center;
+  margin: 40px;
+}
+.container img{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    
+}
+
+
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1 1 25rem;
+    padding: 2rem 0;
+}
+.portfolio img{
+    height: 350px;
+    width: 300px;
+}
+.portfolio .box-container .box{
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    background: black;
+}
+.contact{
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2 rem;
+    margin: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+.contact .row form .box{
+    padding: 20px;
+    margin: 0.2rem 0;
+    background: black;
+    color: white;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 95%;
+}
+.contact .row form .message{
+   height: 5rem;
+   resize: none;    
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: black;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: black;
+    padding: 1rem;
+   font-weight: normal;
+
+}
+
+
